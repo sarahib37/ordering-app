@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Ordering App</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Smythe&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <div class="header-text">
+            <h2>Jimmy's Diner</h2>
+            <h3>The best burgers and pizzas in town</h3>
+        </div>
+    </header>
+
+    <section id="menu-list">
+    </section>
+
+    <section id="checkout1">        
+    </section>
+
+    <section>
+        <div class="modal-box" id="modal-box">
+            <h2 class="modal-title">Enter card details</h2>
+            <form id="payment-form">
+                <input 
+                type="text" 
+                name="username"
+                required
+                placeholder="Enter your name">
+
+                <input 
+                type="text" 
+                required
+                placeholder="Enter card number">
+
+                <input 
+                type="text" 
+                required
+                placeholder="Enter CVV">
+
+                <button type="submit" class="order-btn">Pay</button>
+            </form>
+            
+
+        </div>
+    </section>
+
+    <section>
+        <div id="order-complete">
+            
+        </div>
+
+    </section>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
+
