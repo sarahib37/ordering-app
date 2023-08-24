@@ -4,12 +4,13 @@ body{
     color: #222;
     width: 600px;
     margin: 0px auto;
-    background-color: whitesmoke;
+    background-color: red;
 }
 
 h1, h2, h3, p{
     margin: 0px;
 }
+
 header{
     padding: 5px 50px;
     height: 167px;
