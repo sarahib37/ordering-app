@@ -1,2 +1,2 @@
 # ordering app
- Order from us
+ Order from us for fun.
